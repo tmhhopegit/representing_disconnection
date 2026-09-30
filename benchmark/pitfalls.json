@@ -1,0 +1,28 @@
+{
+ "selection_leakage": {
+  "r_selected_before_cv": 0.3202054435710139,
+  "r_selected_in_fold": 0.23430902545922425,
+  "r_demographics_only": 0.26491881156297176
+ },
+ "paired_variance_tests": {
+  "null_f_test": 0.00225,
+  "null_pitman_morgan": 0.053,
+  "alternative_f_test": 0.092,
+  "alternative_pitman_morgan": 0.41125
+ },
+ "fold_score_tests": {
+  "wilcoxon_fold_scores": 0.285,
+  "cv5x2_f": 0.04,
+  "corrected_t": 0.03
+ },
+ "cherry_picking": {
+  "significant_first_5_repeats": 4.2,
+  "significant_best_subset": 5.3,
+  "tasks": 13,
+  "expected_by_chance": 0.65
+ },
+ "stacking_leak": {
+  "r_original_stacking": 0.021225777817395534,
+  "r_nested_stacking": -0.01220213057172767
+ }
+}
